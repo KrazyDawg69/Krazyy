@@ -187,11 +187,11 @@ button.no:hover {
   font-weight: 600;
   color: white;
   letter-spacing: 1px;
-  display: block;        /* Add this */
-  text-align: center;    /* Add this */
-  margin-top: 10px;      /* Add this for spacing */
+  display: inline-block;  /* Change from block to inline-block if you want it inline */
+  margin: 0 auto;         /* This works with block display */
+  width: fit-content;     /* Makes the width match content */
+  text-align: center;
 }
-
 /* Inside letter text */
 .letter-text {
   position: relative;
